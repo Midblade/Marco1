@@ -1,65 +1,65 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="24" inline="true" x="83" y="94">
+  <block type="controls_repeat" id="1" inline="true" x="83" y="94">
     <value name="TIMES">
-      <block type="math_number" id="54">
+      <block type="math_number" id="2">
         <field name="NUM">133333</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="135"></block>
+      <block type="movement_forward" id="3"></block>
     </statement>
     <next>
-      <block type="controls_repeat" id="151" inline="true">
+      <block type="controls_repeat" id="4" inline="true">
         <value name="TIMES">
-          <block type="math_number" id="158">
+          <block type="math_number" id="5">
             <field name="NUM">16250</field>
           </block>
         </value>
         <statement name="DO">
-          <block type="movement_left" id="93"></block>
+          <block type="movement_left" id="6"></block>
         </statement>
         <next>
-          <block type="controls_repeat" id="213" inline="true">
+          <block type="controls_repeat" id="7" inline="true">
             <value name="TIMES">
-              <block type="math_number" id="220">
+              <block type="math_number" id="8">
                 <field name="NUM">133333</field>
               </block>
             </value>
             <statement name="DO">
-              <block type="movement_forward" id="114"></block>
+              <block type="movement_forward" id="9"></block>
             </statement>
             <next>
-              <block type="controls_repeat" id="227" inline="true">
+              <block type="controls_repeat" id="10" inline="true">
                 <value name="TIMES">
-                  <block type="math_number" id="240">
+                  <block type="math_number" id="11">
                     <field name="NUM">16250</field>
                   </block>
                 </value>
                 <statement name="DO">
-                  <block type="movement_left" id="83"></block>
+                  <block type="movement_left" id="12"></block>
                 </statement>
                 <next>
-                  <block type="controls_repeat" id="264" inline="true">
+                  <block type="controls_repeat" id="13" inline="true">
                     <value name="TIMES">
-                      <block type="math_number" id="297">
+                      <block type="math_number" id="14">
                         <field name="NUM">133333</field>
                       </block>
                     </value>
                     <statement name="DO">
-                      <block type="movement_forward" id="125"></block>
+                      <block type="movement_forward" id="15"></block>
                     </statement>
                     <next>
-                      <block type="controls_repeat" id="314" inline="true">
+                      <block type="controls_repeat" id="16" inline="true">
                         <value name="TIMES">
-                          <block type="math_number" id="321">
+                          <block type="math_number" id="17">
                             <field name="NUM">16250</field>
                           </block>
                         </value>
                         <statement name="DO">
-                          <block type="movement_right" id="104"></block>
+                          <block type="movement_right" id="18"></block>
                         </statement>
                         <next>
-                          <block type="movement_stop" id="332"></block>
+                          <block type="movement_stop" id="19"></block>
                         </next>
                       </block>
                     </next>
